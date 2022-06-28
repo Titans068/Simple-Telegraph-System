@@ -1,0 +1,23 @@
+// Server.java before creating LinkedHashSet for users
+/*
+    while (true) {
+        out.println("Enter Your Username");
+        name = in.nextLine();
+        name=k;
+        if (name == null) {
+            return;
+        }
+
+        synchronized (names) {
+            if (!name.isBlank() && !names.contains(name)) {
+                names.add(name);
+                break;
+            }
+            else
+            {
+                out.println("Either username "+name+" is taken or another instance of this session is currently running. Try another name.");
+            }
+        }
+    }
+    out.println("Your Name Has Been Accepted. Type In '/quit' To Leave The Conversation. Welcome " + name);
+*/
